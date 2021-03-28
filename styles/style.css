@@ -1,0 +1,95 @@
+:root {
+	--BG0: 		#282828;
+	--BG1: 		#3c3836;
+	--BG2: 		#504945;
+	--BG3: 		#665c54;
+	--BG4: 		#7c6f64;
+	--GRAY:		#928374;
+	--FG4: 		#a89984;
+	--FG3:		#bdae93;
+	--FG2:		#d5c4a1;
+	--FG1:		#ebdbb2;
+	--FG0:		#fbf1c7;
+	--RED:		#fb4934;
+	--ORANGE:	#fe8019;
+	--YELLOW:	#fabd2f;
+	--GREEN:	#b8bb26;
+	--AQUA:		#8ec07c;
+	--BLUE:		#83a598;
+	--PURPLE:	#d3869b;
+	--dRED:		#cc341d;
+	--dORANGE:	#d65d0e;
+	--dYELLOW:	#d79921;
+	--dGREEN:	#98971a;
+	--dAQUA:	#689d6a;
+	--dBLUE:	#458588;
+	--dPURPLE:	#b16286;
+
+}
+
+html {
+	background-color: var(--BG0);
+	font-size: 19px;
+	font-family: 'Roboto Mono', monospace;
+	color: var(--FG2);
+}
+
+body {
+	width: 1000px;
+	margin: 0 10% 0 0;
+	background-color: var(--BG1);
+	padding: 30px 30px 30px 30px;
+}
+
+hr.top {
+	border: 10px solid var(--BG2);
+}
+
+p {
+}
+
+h1 {
+	font-size: 70px;
+	color: var(--RED);
+	line-height: 0.2;
+}
+
+h1.subtitle {
+	font-size: 45px;
+	color: var(--GRAY);
+}
+
+h2 {
+	color: var(--FG0);
+}
+
+img.orb {
+	display: block;
+	float: right;
+	margin: 0 auto;
+	width: 35%;
+}
+
+a:link {
+	color: var(--GRAY);
+	text-decoration: none;
+}
+
+a:visited {
+	color: var(--dORANGE);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+.cult-id {
+	display: inline;
+	color: var(--FG4);
+	font-style: italic;
+}
